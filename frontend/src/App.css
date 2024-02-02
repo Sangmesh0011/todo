@@ -1,0 +1,57 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+.todo-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.add-todo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 210px;
+    height: 290px;
+    padding: 20px 30px;
+    box-shadow: 1px 1px 10px 2px grey;
+    border-radius: 8px;
+    background-color: rgba(255, 242, 224, 0.851);
+    &:hover{
+        box-shadow: 1px 1px 0.1px 1px rgb(0, 0, 0);
+        background-color: bisque;
+    }
+}
+
+.add-todo input,
+.add-todo button {
+  margin: 5px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.add-todo input{
+  height: 90px;
+}
+.add-todo button {
+  background-color: #1e1e1e;
+  color: white;
+  cursor: pointer;
+}
+
+.add-todo-box button:hover {
+  background-color: #45a049;
+}
